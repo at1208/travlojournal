@@ -78,19 +78,19 @@ const Home = ({ largeBlogs, smallBlogs, mediumBlogs }) => {
              <title>{process.env.NEXT_PUBLIC_APP_NAME}</title>
              <meta
                  name="description"
-                 content="The content is specific towards the Individual being rather than materialistic entities, How to be a good person, How to attain a good conversation skil, etc"
+                 content="Travelogue boasts a fun, exciting, and action-packed travel blog containing a new fun different story in each blog. Types of blog that make you feel you’re in that place."
              />
              <link rel="canonical" href={`${process.env.NEXT_PUBLIC_DOMAIN_URL}`} />
-             <meta property="og:title" content={`The content is specific towards the Individual being rather than materialistic entities | ${process.env.NEXT_PUBLIC_APP_NAME}`} />
+             <meta property="og:title" content={`Travelogue boasts a fun, exciting, and action-packed travel blog containing a new fun different story in each blog. Types of blog that make you feel you’re in that place. | ${process.env.NEXT_PUBLIC_APP_NAME}`} />
              <meta
                  property="og:description"
-                 content="The content is specific towards the Individual being rather than materialistic entities, How to be a good person, How to attain a good conversation skil, etc"
+                 content="Travelogue boasts a fun, exciting, and action-packed travel blog containing a new fun different story in each blog. Types of blog that make you feel you’re in that place."
              />
              <meta property="og:type" content="website" />
              <meta property="og:url" content={`${process.env.NEXT_PUBLIC_DOMAIN_URL}`} />
              <meta property="og:site_name" content={`${process.env.NEXT_PUBLIC_APP_NAME}`} />
-             <meta property="og:image" content={`${process.env.NEXT_PUBLIC_DOMAIN_URL}/artoftalk.svg`} />
-             <meta property="og:image:secure_url" content={`${process.env.NEXT_PUBLIC_DOMAIN_URL}/artoftalk.svg`} />
+             <meta property="og:image" content={`${process.env.NEXT_PUBLIC_DOMAIN_URL}/travlojournal.svg`} />
+             <meta property="og:image:secure_url" content={`${process.env.NEXT_PUBLIC_DOMAIN_URL}/travlojournal.svg`} />
              <meta property="og:image:type" content="image/jpg" />
              <meta property="fb:app_id" content={`${process.env.NEXT_PUBLIC_FB_APP_ID}`} />
              </Head>
