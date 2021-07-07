@@ -50,9 +50,6 @@ const Header = () => {
                 <img src="/travlojournal.svg" className={styles.logo} alt="TravloJournal"/>
                 <span className={styles.appname}>TravloJournal</span>
              </Grid>
-             <Grid item>
-
-             </Grid>
            </Grid>
          </div>
 }

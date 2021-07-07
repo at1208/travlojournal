@@ -263,7 +263,6 @@ const Home = ({ largeBlogs, smallBlogs, mediumBlogs }) => {
                               className={styles.logo} />
                          </div>
                        </div>
-                     </div>
                      <div className="row">
                        <span className={styles.field}>Help</span>
                        <span className={styles.field}>Careers</span>
@@ -272,6 +271,7 @@ const Home = ({ largeBlogs, smallBlogs, mediumBlogs }) => {
                        <span className={styles.field}>About</span>
                        <span className={styles.field}>Contact</span>
                        <span className={styles.field}>Sponsor</span>
+                     </div>
                      </div>
                   </section>
                 </div>

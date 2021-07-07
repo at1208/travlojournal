@@ -1,10 +1,10 @@
 .outercontainer{
   /* height: 110px; */
-  margin-bottom: 10px;
   padding-bottom: 20px;
   padding-left: 3%;
   padding-top: 20px;
   padding-right: 3%;
+  background-color: #dbf3fa;
 }
 .picture{
   height: 35px;
@@ -16,6 +16,7 @@
   font-weight: 600;
   font-family: none;
   padding-top: 20px;
+  background-color: #dbf3fa;
 }
 @media (min-width:767px) {
   .appname{
