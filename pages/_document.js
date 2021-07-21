@@ -57,7 +57,6 @@ class MyDocument extends Document {
             async
             src="https://www.googletagmanager.com/gtag/js?id=G-1H5B0Q6SCT"
           ></script>
-
           <script
             src="https://apis.google.com/js/platform.js?onload=onLoadCallback"
             async
