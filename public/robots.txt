@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://travlojournal.com
+Host: https://www.travlojournal.com
 
 # Sitemaps
-Sitemap: https://travlojournal.com/server-sitemap.xml
+Sitemap: https://www.travlojournal.com/server-sitemap.xml
