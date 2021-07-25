@@ -98,7 +98,7 @@
   border: 1px solid rgb(224 224 224);
   text-transform: capitalize!important;
   min-width: 50px;
-  background-color: #92dff3;
+  background-color: #e4e0e0;
   padding: 7px 12px 7px 12px;
   margin: 5px;
 }
@@ -110,7 +110,7 @@
   padding-left: 5%;
   padding-right: 5%;
   min-height: 50vh;
-  background-color: #dbf3fa;
+  background-color: #f5f3f3;
 }
 .eachblog{
   margin: 3px;

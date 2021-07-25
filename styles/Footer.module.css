@@ -1,12 +1,12 @@
 .footer{
   padding-top: 30px;
   height: 100px;
-  background-color: #34485D
+  background-color: rgba(0, 0, 0, 0.9)
 }
 .field{
   margin: 5px;
   font-size: 17px;
-  color: #ffffff;
+   color: white;
   font-weight: 300;
 }
 
@@ -33,9 +33,11 @@
 }
 .footermain{
   background-color: #dbf3fa;
-  padding-top: 70px;
+  padding-top: 480px;
 }
 .footerhome{
-  height: 100px;
-  background-color: #34485D
+   margin-top: 50vh;
+   padding-top: 30px;
+   height: 100px;
+   background-color: rgba(0, 0, 0, 0.9)
 }

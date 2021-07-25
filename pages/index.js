@@ -210,8 +210,6 @@ const Home = ({ largeBlogs, smallBlogs, mediumBlogs }) => {
                 <div className="row">
                 <div className="col-md-8">
                   <MediumblogList />
-                  <br/>
-                  <br/>
                 </div>
                 <div className="col-md-4 d-lg-block d-xl-block d-none d-md-block d-lg-none">
                   <section className="rightbottom" id="rightbottom">
