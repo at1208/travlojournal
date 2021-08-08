@@ -9,15 +9,15 @@ import styles from "../styles/Blog.module.css";
 import { read_blog } from "../actions/blog";
 
 const RelatedBlogs = dynamic(() => import("../components/Blog/relatedBlogs"), {
-  ssr: false
+  ssr: false,
 });
 
 const AuthorInfo = dynamic(() => import("../components/Blog/authorInfo"), {
-  ssr: false
+  ssr: false,
 });
 
 const GoogleOneTap = dynamic(() => import("../components/Blog/googleOneTap"), {
-  ssr: false
+  ssr: false,
 });
 
 const Blog = ({ query, blog }) => {
@@ -27,7 +27,7 @@ const Blog = ({ query, blog }) => {
     return (
       <>
         <GoogleOneTap
-          setIsAuthenticated={status => setIsAuthenticated(status)}
+          setIsAuthenticated={(status) => setIsAuthenticated(status)}
         />
         <BlogHead blog={blog} />
         <Layout isAuthenticated={isAuthenticated}>
@@ -61,7 +61,7 @@ const Blog = ({ query, blog }) => {
 };
 
 Blog.getInitialProps = ({ query }) => {
-  return read_blog(query.blog).then(response => {
+  return read_blog(query.blog).then((response) => {
     return { blog: response, query };
   });
 };
