@@ -1,0 +1,34 @@
+{
+  "../components/Blog/blog.js -> @material-ui/core/Avatar": {
+    "id": 2575,
+    "files": [
+      "static/chunks/575.3dce4d498eba71d73ef4.js"
+    ]
+  },
+  "../components/Blog/relatedBlogs.js -> ./Cards/smallCard": {
+    "id": 6145,
+    "files": [
+      "static/chunks/675-2ed885df7f31ffba5d27.js",
+      "static/css/88b72e67426087cbe858.css",
+      "static/chunks/145.7312538a2f30651852ec.js"
+    ]
+  },
+  "[blog].js -> ../components/Blog/authorInfo": {
+    "id": 860,
+    "files": [
+      "static/chunks/860.b0ff55abde826576a1b4.js"
+    ]
+  },
+  "[blog].js -> ../components/Blog/googleOneTap": {
+    "id": 6051,
+    "files": [
+      "static/chunks/51.59a9589a80723ecbccdf.js"
+    ]
+  },
+  "[blog].js -> ../components/Blog/relatedBlogs": {
+    "id": 7602,
+    "files": [
+      "static/chunks/602.1d63a71583fdffaf78a1.js"
+    ]
+  }
+}
