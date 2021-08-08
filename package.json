@@ -11,7 +11,7 @@
     "build": "npm-run-all --sequential build:*",
     "build:client": "next build",
     "start": "next start",
-    "noIndex": "npm run build && echo 'User-agent: *\nDisallow: /' > dist/robots.txt"
+    "noIndex": "npm run build && echo 'User-agent: *\nDisallow: /' > out/robots.txt"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^4.0.3",
