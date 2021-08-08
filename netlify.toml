@@ -1,7 +1,5 @@
-[context.deploy-preview]
-  publish= "dist/"
+[[context.deploy-preview]]
   command = "npm run noIndex"
 
-[context.branch-deploy]
-  publish= "dist/"
+[[context.branch-deploy]]
   command = "npm run noIndex"

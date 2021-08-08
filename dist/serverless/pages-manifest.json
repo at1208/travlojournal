@@ -1,8 +1,0 @@
-{
-  "/[blog]": "pages/[blog].js",
-  "/category/[slug]": "pages/category/[slug].js",
-  "/": "pages/index.js",
-  "/sitemap.xml": "pages/sitemap.xml.js",
-  "/_error": "pages/_error.js",
-  "/404": "pages/404.html"
-}
