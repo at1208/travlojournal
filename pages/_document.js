@@ -35,7 +35,7 @@ class MyDocument extends Document {
             href={process.env.NEXT_PUBLIC_DOMAIN_URL}
             hrefLang="en-us"
           />
-          {/*<link
+          <link
             defer
             rel="dns-prefetch"
             href={process.env.NEXT_PUBLIC_DOMAIN_URL}
@@ -51,7 +51,7 @@ class MyDocument extends Document {
             rel="preconnect"
             href="https://www.googletagmanager.com"
             crossOrigin
-          />*/}
+          />
           <link rel="icon" href="/travlojournal.svg" />
           <script
             async
