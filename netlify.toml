@@ -1,5 +1,6 @@
-[context.deploy-preview]
-  command = "npm run noIndex"
+[[redirects]]
+  from = "/*"
+  to = "https://www.travlojournal.com/:splat 301!"
+  status = 200
 
-[context.branch-deploy]
-  command = "npm run noIndex"
+ 
