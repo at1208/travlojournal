@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Host
+Host:https://www.travlojournal.com
+
+# Sitemaps
+Sitemap:https://www.travlojournal.com/sitemap.xml
